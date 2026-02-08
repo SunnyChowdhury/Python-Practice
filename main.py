@@ -886,7 +886,9 @@ def testFunction():
             result = result - x
         else:
             result = result + x
-    return x
+    return result
+
+print(testFunction())
 
 # Leetcode: Arrays & Hashing : Easy
 # ---------------------------------
