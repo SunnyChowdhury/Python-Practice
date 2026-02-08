@@ -58,6 +58,7 @@ Basic programming
 #34. Find the second largest/smallest element in a descending order list - sort(reverse=True) ✅
 #35. Find the number of repeating substring ✅
 #36. Sum of all Even numbers ✅
+#37. Code Tracing/Dry run
 =================================================================
 #38. LRU Cache Implementation
      collections.OrderedDict or Custom LinkedList + HashMap approach.
@@ -877,6 +878,16 @@ for i in range(1, num+1):
 
 print(total)
 
+#37. Code Tracing/Dry run
+def testFunction():
+    result = 0
+    for x in [3, 3, 5]:
+        if x > 3:
+            result = result - x
+        else:
+            result = result + x
+    return x
+
 # Leetcode: Arrays & Hashing : Easy
 # ---------------------------------
 #1929. Concatenation of Array - Nested for loop with append()
@@ -1138,13 +1149,14 @@ def validPalindromeTwo(s):
 
 print(validPalindromeTwo(s))
 
-#680a. Valid Palindrome II
+#680a. Valid Palindrome II - Use slicing
 s = "racecarx"
 
 def validPalindromeTwo(s):
     left, right = 0, len(s) - 1
     while left < right:
         if s[left] != s[right]:
+            #Use slicing
             skipL = s[left+1:right+1]
             skipR = s[left:right]
             return skipL == skipL[::-1] or skipR == skipR[::-1]
