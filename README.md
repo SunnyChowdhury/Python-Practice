@@ -1,14 +1,13 @@
 # Python Coding Practice 🐍
 
 Welcome to my Python coding practice repo!  
-This is a personal space where I strengthen my fundamentals for coding interviews — one problem at a time.
+This is a personal space where I strengthen my fundamentals for coding — one problem at a time.
 
 ## 🧠 Purpose
 
-As a QA professional transitioning into SDET/Software development roles, I’m using this repo to:
+As a QA/SDET/Software professional, I’m using this repo to:
 - Build muscle memory with Python
 - Practice clean logic and core problem-solving patterns
-- Prepare for coding interviews
 
 ## 💡 What You’ll Find
 
@@ -20,8 +19,6 @@ As a QA professional transitioning into SDET/Software development roles, I’m u
 ## 🚀 Goals
 
 - Grow into a confident engineer and problem solver
-- Contribute to real-world Playwright and React projects at work
-- Build a foundation strong enough to transition toward development roles
 
 ## 🤝 Open to Feedback
 
